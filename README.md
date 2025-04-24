@@ -1,1 +1,1 @@
-<img src="./readme-ezgif.com-optimize.gif">
+<img src="./readme-img.gif">
