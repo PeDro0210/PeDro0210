@@ -1,1 +1,1 @@
-<img src="https://firebasestorage.googleapis.com/v0/b/fatipage-a0067.firebasestorage.app/o/personal-readme%2Freadme-ezgif.com-video-to-gif-converter.gif?alt=media&token=5076a5b8-536d-4543-89ca-a50b7b8925ea">
+[cool-img](https://firebasestorage.googleapis.com/v0/b/fatipage-a0067.firebasestorage.app/o/personal-readme%2Freadme-ezgif.com-video-to-gif-converter.gif?alt=media&token=5076a5b8-536d-4543-89ca-a50b7b8925ea)
