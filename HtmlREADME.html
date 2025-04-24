@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap');
+
+  :root {
+
+    font-family: 'Jersey 10';
+
+  }
+
+  body {
+    background: url("https://firebasestorage.googleapis.com/v0/b/fatipage-a0067.firebasestorage.app/o/personal-readme%2FWallpaper1.gif?alt=media&token=1a921f8a-56a1-4665-a20b-ebf31ea4be0b") no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+  /* Terminal */
+  #terminal {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 5px;
+    gap: 5px;
+
+    width: 1024px;
+    height: 396px;
+
+    background: rgba(0, 0, 0, 0.77);
+    border: solid #47B9FF 1px;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    /* Terminal Line */
+    first-command {
+      width: 1014px;
+      height: 12px;
+
+      font-family: 'Jersey 10';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1em;
+      line-height: 12px;
+      /* identical to box height */
+
+      color: #3155C9;
+
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+
+    fast-fetch {
+      /* fast-fetch */
+
+      /* Auto layout */
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+
+      width: 192px;
+      height: 249px;
+
+
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+    }
+
+    .fast-fetch-image {
+      /* fast-fetch-image */
+
+      width: 192px;
+      height: 249px;
+
+      /* Inside auto layout */
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+
+    fast-fetch-text {
+      /* fast-fetch-text */
+
+      /* Auto layout */
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px 10px;
+
+      width: 819px;
+      height: 249px;
+
+
+      /* Inside auto layout */
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+
+      .terminal-line {
+        /* Terminal Line */
+        list-style-type: none;
+        width: 809px;
+        height: 12px;
+        margin: 0px;
+
+        font-family: 'Jersey 10';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 12px;
+        /* identical to box height */
+
+        color: #53B4FD;
+
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+  }
+</style>
+
+<body>
+  <div id="terminal">
+    <first-command>~ > my-fast-fetch</first-command>
+    <fast-fetch>
+      <img class="fast-fetch-image"
+        src="https://firebasestorage.googleapis.com/v0/b/fatipage-a0067.firebasestorage.app/o/personal-readme%2FHaruko.png?alt=media&token=6d1790c5-ecd6-467d-9fa0-1aad8d5b15a4">
+      <fast-fetch-text>
+        <h1 class="terminal-line">> Pedro's Github</h1>
+        <ul>
+          <li class="terminal-line">- My dog ass ugly repo (it has cool projects init)</li>
+        </ul>
+      </fast-fetch-text>
+    </fast-fetch>
+  </div>
+</body>
